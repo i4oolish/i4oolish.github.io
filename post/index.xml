@@ -19,8 +19,10 @@
       <guid>https://i4oolish.github.io/p/hello-hugo/</guid>
       <description>这是我准备用Hugo记录自己工作和生活的第一篇文章，大概描述下自己安装Hugo的过程，以及博客的定位。
 安装Hugo  根据官网的介绍，我在本地安装了hugo_extented_0.75.1，然后按照以下命令在本地构建了最基础的网站：  $ hugo.exe new site /path/to/site #生成站点 $ cd /path/to/site  之后下载了主题hugo-theme-stack，根据stack主题的介绍，做了如下几步修改：   应用主题    将hugo-theme-stack放到站点根目录的theme文件夹 将exampleSite文件夹中的assets和config.toml复制到站点根目录   配置主题   几乎未做任何修改，完全参照说明文档来
-  再之后，创建了文章  $ hugo.exe new about.md $ hugo.exe new post/hello-hugo.md  再之后，就是参照stack作者的博客来修改了about页面，然后就是根据[开始创作]（https://www.notion.so/86f85aaffd944174806648a8737eb3a5）文档来写这篇文章。   建博客的目的 建这个博客有两个目的：
- 年龄大了，记性越来越不好，需要有个地方记录自己的生活，工作感悟； 认识更多的趣味相投的朋友，聊聊行业，技术和生活；  关于工作方面，我目前主要是在做移动端推理框架，自己未来也会倾向于记录移动端推理框架的技术和一些思考。</description>
+  再之后，创建了文章  $ hugo.exe new about.md $ hugo.exe new post/hello-hugo.md   再之后，就是参照stack作者的博客来修改了about页面，然后就是根据[开始创作]（https://www.notion.so/86f85aaffd944174806648a8737eb3a5）文档来写这篇文章。
+  本地验证：
+  $ hugo.exe server --theme=stack --buildDrafts  部署生成public：  $ hugo.exe --theme=stack --baseUrl=&amp;#34;https://xxxx.github.io/&amp;#34;  archive:   创建页面page/archive.md，将stack主题目录下的archive.md内容复制过来
+ 建博客的目的 建这个博客有两个目的：</description>
     </item>
     
   </channel>

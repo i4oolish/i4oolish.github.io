@@ -197,10 +197,25 @@ $ cd /path/to/site
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ hugo.exe new about.md
 $ hugo.exe new post/hello-hugo.md
 </code></pre></div><ul>
-<li>再之后，就是参照stack作者的<a class="link" href="https://blog.jimmycai.com/about"  target="_blank" rel="noopener"
-    >博客</a>来修改了about页面，然后就是根据[开始创作]（https://www.notion.so/86f85aaffd944174806648a8737eb3a5）文档来写这篇文章。</li>
+<li>
+<p>再之后，就是参照stack作者的<a class="link" href="https://blog.jimmycai.com/about"  target="_blank" rel="noopener"
+    >博客</a>来修改了about页面，然后就是根据[开始创作]（https://www.notion.so/86f85aaffd944174806648a8737eb3a5）文档来写这篇文章。</p>
+</li>
+<li>
+<p>本地验证：</p>
+</li>
 </ul>
-<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ hugo.exe server --theme<span style="color:#f92672">=</span>stack --buildDrafts
+</code></pre></div><ul>
+<li>部署生成public：</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ hugo.exe --theme<span style="color:#f92672">=</span>stack --baseUrl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://xxxx.github.io/&#34;</span>
+</code></pre></div><ul>
+<li>archive:</li>
+</ul>
+<blockquote>
+<p>创建页面page/archive.md，将stack主题目录下的archive.md内容复制过来</p>
+</blockquote>
 <h2 id="建博客的目的">建博客的目的</h2>
 <p>建这个博客有两个目的：</p>
 <ol>
