@@ -3,11 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://i4oolish.github.io/categories/</loc>
+    <loc>https://i4oolish.github.io/p/hello-hugo/</loc>
+    <lastmod>2020-09-18T14:09:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i4oolish.github.io/p/hello-hugo/</loc>
+    <lastmod>2020-09-18T14:09:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i4oolish.github.io/post/</loc>
+    <lastmod>2020-09-18T14:09:20+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://i4oolish.github.io/</loc>
+    <lastmod>2020-09-18T14:09:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i4oolish.github.io/about/</loc>
+    <lastmod>2020-09-18T14:08:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://i4oolish.github.io/categories/</loc>
   </url>
   
   <url>
